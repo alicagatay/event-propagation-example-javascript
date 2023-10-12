@@ -30,6 +30,14 @@ body {
   width: 70px;
   height: 70px;
   background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-inner-box1 p {
+  color: white;
+  font-size: 40px;
 }
 
 .inner-inner-box2 {
@@ -37,4 +45,12 @@ body {
   width: 70px;
   height: 70px;
   background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-inner-box2 p {
+  color: white;
+  font-size: 40px;
 }
