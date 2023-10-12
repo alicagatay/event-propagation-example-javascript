@@ -1,3 +1,5 @@
 # JavaScript Event Propagation Example
 
-This is a project to practice my learnings on JavaScript event propagation, event bubbling and event capturing.
+JavaScript Event Propagation Example is a simple project I have created in order to practice my understandings of event propagation, event bubbling and event capturing in JavaScript.
+
+This project is made by using pure JavaScript, HTML and CSS. No frameworks or libraries are used.
