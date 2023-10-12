@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 
 function logText(e) {
   console.log(this.classList.value);
-  e.stopPropagation();
+  //e.stopPropagation();
 }
 
 divs.forEach((div) => div.addEventListener("click", logText));
