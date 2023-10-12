@@ -4,9 +4,9 @@ const body = document.querySelector("body");
 
 function logText(e) {
   console.log(this.classList.value);
-  //e.stopPropagation();
+  e.stopPropagation();
 }
 
-divs.forEach((div) => div.addEventListener("click", logText, { once: true }));
+divs.forEach((div) => div.addEventListener("click", logText));
 
-body.addEventListener("click", logText, { once: true });
+body.addEventListener("click", logText);
